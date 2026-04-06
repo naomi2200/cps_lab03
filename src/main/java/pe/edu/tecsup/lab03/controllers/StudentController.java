@@ -6,4 +6,7 @@ public class StudentController {
 
     StudentService service = new StudentService();
 
+    public void mostrarMensaje() {
+        System.out.println("Controlador funcionando correctamente");
+    }
 }
